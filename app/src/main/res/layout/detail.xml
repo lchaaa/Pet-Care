@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8F8F8"
+    android:padding="0dp"
+    tools:context=".DetailActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ac"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:elevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:text="커뮤니티"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/readtextview"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#757575"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:text="나의 강아지를 자랑하고 구경 해보세요"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <!-- 제목 표시 -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_below="@+id/ac"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:text="제목:"
+        android:textSize="15sp"
+       />
+
+    <!-- 내용 표시 -->
+    <TextView
+        android:id="@+id/contentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTextView"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="5dp"
+        android:text="내용"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contentTextView"
+        android:layout_marginTop="0dp"
+        android:text="이름:"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/timestampTextView"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTextView"
+        android:layout_marginTop="0dp"
+        android:text="시간:"
+        android:textSize="15sp" />
+
+    <!-- 이미지 표시 -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="320dp"
+        android:layout_height="270dp"
+        android:layout_below="@+id/timestampTextView"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:adjustViewBounds="true"
+        />
+    >
+    <TextView
+        android:id="@+id/aa"
+        android:layout_below="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="댓글 목록"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        />
+    <!-- 댓글 목록 -->
+    <ListView
+        android:id="@+id/commentListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aa"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0dp" />
+
+    <EditText
+        android:id="@+id/commentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/commentListView"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:hint="댓글을 달아주세요" />
+
+
+    <android.widget.Button
+        android:background="@drawable/button_rounded_background"
+        android:textColor="@color/white"
+        android:id="@+id/submitCommentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/commentEditText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:text="댓글등록"
+        tools:ignore="NotSibling" />
+
+
+
+</RelativeLayout>
+

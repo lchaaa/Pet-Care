@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Google 지도를 표시할 Fragment -->
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+    <!-- CardView로 감싼 둥근 창을 만듭니다. -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/roundedCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp">
+
+            <!-- 타이머 -->
+
+            <!-- 시작 버튼 -->
+            <TextView
+                android:id="@+id/timerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="00:00"
+                android:layout_centerHorizontal="true"
+                android:textSize="24sp" />
+
+            <android.widget.Button
+                android:id="@+id/startButton"
+                android:background="@drawable/button_rounded_background"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/timerTextView"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:onClick="onStartButtonClicked"
+                android:text="시작" />
+
+            <!-- 정지 버튼 -->
+            <android.widget.Button
+                android:id="@+id/stopTimerButton"
+                android:background="@drawable/button_rounded_background"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/timerTextView"
+                android:layout_toEndOf="@+id/startButton"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:onClick="onStopTimerButtonClicked"
+                android:text="정지" />
+
+            <!-- Open Camera 버튼 -->
+            <android.widget.Button
+                android:id="@+id/cameraButton"
+                android:background="@drawable/button_rounded_background"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/stopTimerButton"
+                android:layout_marginTop="10dp"
+                android:onClick="openCamera"
+                android:layout_marginStart="30dp"
+                android:text="카메라" />
+
+            <android.widget.Button
+                android:id="@+id/stopButton"
+                android:background="@drawable/button_rounded_background"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/stopTimerButton"
+                android:layout_toEndOf="@+id/cameraButton"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="25dp"
+                android:onClick="onStopButtonClicked"
+                android:text="끝" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

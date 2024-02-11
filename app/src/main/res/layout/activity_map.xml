@@ -1,0 +1,92 @@
+<!-- activity_map.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
+
+    <!-- Google 지도를 표시할 프래그먼트 -->
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cameraZoom="15"
+        tools:context=".MapActivity" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/roundedCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="8dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="40dp">
+
+    <!-- 타이머 정보를 표시할 TextView -->
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="00:00:00"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/distanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timerTextView"
+        android:text="이동 거리: 0.0 km"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp" />
+    <TextView
+        android:id="@+id/dateTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Date and Time:"
+        android:layout_below="@+id/distanceTextView"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+       />
+            <android.widget.Button
+                android:background="@drawable/button_rounded_background"
+                android:textColor="@color/white"
+                android:id="@+id/saveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dateTimeTextView"
+                android:text="저장"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="0dp"
+                android:onClick="onSaveButtonClicked"/>
+
+            <android.widget.Button
+                android:background="@drawable/button_rounded_background"
+                android:textColor="@color/white"
+                android:id="@+id/moreButton"
+                android:layout_width="wrap_content"
+                android:layout_toEndOf="@+id/saveButton"
+                android:layout_height="wrap_content"
+                android:text="홈"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="70dp"
+                android:layout_below="@+id/dateTimeTextView"
+                android:onClick="onmoreButtonClicked"/>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
