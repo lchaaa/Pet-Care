@@ -36,6 +36,6 @@
 
 <p float="left">  
 <img width="37%" src="https://github.com/lchaaa/Pet-Care/assets/117001092/c164ae9e-13ec-41a7-a581-5ff9e5b7032e">
-<img width="37%" src="(https://github.com/lchaaa/Pet-Care/assets/117001092/12faa9ff-81c7-47c6-a15c-e0913013b720">
+<img width="37%" src="https://github.com/lchaaa/Pet-Care/assets/117001092/12faa9ff-81c7-47c6-a15c-e0913013b720">
 </p>
 
