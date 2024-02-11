@@ -29,13 +29,13 @@
 </p>
 
 <p float="left">  
-<img width="37%" src="https://github.com/lchaaa/Pet-Care/assets/117001092/a66bbfc1-f18c-4212-bd6f-482be9675dee">
+<img width="37%" src="https://github.com/lchaaa/Pet-Care/assets/117001092/02226a67-84b8-44d0-b619-472420715c3e">
 <img width="37%" src="https://github.com/lchaaa/Pet-Care/assets/117001092/a66bbfc1-f18c-4212-bd6f-482be9675dee">
 
 </p>
 
 <p float="left">  
-<img width="37%" src="https://github.com/lchaaa/Help-us/assets/117001092/b99c39d7-ff87-4f69-b306-392a314708d3">
+<img width="37%" src="https://github.com/lchaaa/Pet-Care/assets/117001092/c164ae9e-13ec-41a7-a581-5ff9e5b7032e">
 <img width="37%" src="https://github.com/lchaaa/Help-us/assets/117001092/010b8483-7ca6-4bf5-b8a6-96dec688b2fe">
 </p>
 
