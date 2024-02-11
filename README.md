@@ -30,7 +30,8 @@
 
 <p float="left">  
 <img width="37%" src="https://github.com/lchaaa/Pet-Care/assets/117001092/a66bbfc1-f18c-4212-bd6f-482be9675dee">
-<img width="37%" src="https://github.com/lchaaa/Pet-Care/assets/117001092/71015c4f-031d-48c0-8fb6-ae82eca9ac9f">
+<img width="37%" src="https://github.com/lchaaa/Pet-Care/assets/117001092/a66bbfc1-f18c-4212-bd6f-482be9675dee">
+
 </p>
 
 <p float="left">  
