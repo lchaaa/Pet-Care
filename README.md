@@ -20,7 +20,7 @@
 
 <p float="left">  
 <img width="37%" src="https://github.com/lchaaa/Pet-Care/assets/117001092/03e70f48-0add-4e26-b020-1943ba8e3e90">
-<img width="37%" src="https://github.com/lchaaa/Pet-Care/assets/117001092/13181db7-058c-41db-b395-50cfa4a31489">
+<img width="37%" src="https://github.com/lchaaa/Pet-Care/assets/117001092/9eeff820-fc39-4879-b7c1-eb16d6667553">
 </p>
 
 <p float="left">  
