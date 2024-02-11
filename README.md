@@ -24,7 +24,7 @@
 </p>
 
 <p float="left">  
-<img width="37%" src="https://github.com/lchaaa/Help-us/assets/117001092/08e6c6d8-a33c-4100-9c2f-54a6d22c3059">
+<img width="37%" src="https://github.com/lchaaa/Pet-Care/assets/117001092/c8e9990a-f46f-4e3a-97ef-6c14d8933fad">
 <img width="37%" src="https://github.com/lchaaa/Help-us/assets/117001092/4051a7bb-0c56-48dd-8331-36781637df47">
 </p>
 
