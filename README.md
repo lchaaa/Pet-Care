@@ -29,8 +29,8 @@
 </p>
 
 <p float="left">  
-<img width="37%" src="https://github.com/lchaaa/Help-us/assets/117001092/521bf3b2-3e3f-4b2d-99e5-4e18852f22e7">
-<img width="37%" src="https://github.com/lchaaa/Help-us/assets/117001092/e5a64ead-0cc4-489c-a2ea-81b2dce9282b">
+<img width="37%" src="https://github.com/lchaaa/Pet-Care/assets/117001092/a66bbfc1-f18c-4212-bd6f-482be9675dee>
+<img width="37%" src="https://github.com/lchaaa/Pet-Care/assets/117001092/71015c4f-031d-48c0-8fb6-ae82eca9ac9f">
 </p>
 
 <p float="left">  
